@@ -33,7 +33,7 @@ public class operators {
         System.out.println("Logical NOT for y: " + (!y));
         System.out.println();
 
-        // Assignment operators
+        // Assignment operators 
         int c = 20;
         System.out.println("Assignment Operators:");
         c += 10; // Equivalent to c = c + 10

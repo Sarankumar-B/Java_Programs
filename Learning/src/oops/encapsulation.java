@@ -48,7 +48,7 @@ public class encapsulation {
         person.setName("Bharadwaj");
         person.setAge(23);
 
-        person.displayInfo();
+        person.displayInfo(); 
     }
     
 }

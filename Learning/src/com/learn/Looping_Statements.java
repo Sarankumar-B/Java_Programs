@@ -35,8 +35,7 @@ public class Looping_Statements {
 	       {
 	         System.out.print(k);
 	       }
-	      Looping_Statements b=new Looping_Statements();
-	      b.add(1,4,5,9);
+	     
 	    		  
 	      
 	}

@@ -8,7 +8,8 @@ public class stringBuilder {
 		
 		//string builder
 		StringBuilder stringBuilder = new StringBuilder("Hello");
-		System.out.println("::String builder::");
+		System.out.println("---------------String builder---------------");
+		System.out.println("Initial string :"+stringBuilder);
         stringBuilder.append(" World");
         System.out.println("After append: " + stringBuilder);
 

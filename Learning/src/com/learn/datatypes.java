@@ -10,7 +10,6 @@ public class datatypes {
 	static char chardef;
 	static boolean booldef;
 	
-	
     public static void main(String[] args) {
         // Primitive data types
         byte byteVar = 127;             

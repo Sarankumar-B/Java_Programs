@@ -18,12 +18,6 @@ public class SingleDimensionalArray {
             System.out.println("Element at index " + i + ": " + numbers[i]);
         }
 
-        // Summing all elements of the array
-        int sum = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            sum =sum+ numbers[i];
-        }
-        System.out.println("\nSum of all elements: " + sum);
 
         // Finding the maximum element
         int max = numbers[0];

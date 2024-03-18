@@ -20,10 +20,10 @@ class Car {
 }
 
 // Child class inheriting from Car
-class Sedan extends Car {
+class Nissan extends Car {
     int numOfSeats;
 
-    public Sedan(String brand, String model, int numOfSeats) {
+    public Nissan(String brand, String model, int numOfSeats) {
         super(brand, model);
         this.numOfSeats = numOfSeats;
     }
@@ -36,13 +36,12 @@ class Sedan extends Car {
 }
 
 // Child class inheriting from Car
-class SUV extends Car {
+class Kia extends Car {
     boolean fourWheelDrive;
 
-    public SUV(String brand, String model) {
+    public Kia(String brand, String model) {
         super(brand, model);
-        this.fourWheelDrive = fourWheelDrive;
-    }
+      }
 
     public void displayInfo() {
         System.out.println("Brand: " + brand);
@@ -52,17 +51,18 @@ class SUV extends Car {
 
 public class Interface {
     public static void main(String[] args) {
-        Sedan sedan = new Sedan("Toyota", "Camry", 5);
-        SUV suv = new SUV("Jeep", "Grand Cherokee");
+    	Nissan Nissan = new Nissan("Nissan", "GT-R", 5);
+    	Kia Kia = new Kia("KIA", "K5");
 
-        sedan.start();
-        sedan.displayInfo();
-        sedan.stop();
+        Nissan.start();
+        Nissan.displayInfo();
+        Nissan.stop();
 
         System.out.println();
 
-        suv.start();
-        suv.displayInfo();
-        suv.stop();
+        Kia.start();
+        Kia.displayInfo();
+        Kia.stop();
     }
+
 }

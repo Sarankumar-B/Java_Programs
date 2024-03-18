@@ -19,7 +19,6 @@ package oops;
 	     return Math.PI * radius * radius;
 	 }
 	}
-	
 //class3
 	class Rectangle extends Shape {
 	 private double length;
@@ -37,7 +36,7 @@ package oops;
 	}
 	
 //class4
-	public class Abstraction {
+	public class Abstraction_Inheritence {
 	 public static void main(String[] args) {
 	     // Creating objects of Circle and Rectangle
 	     Circle circle = new Circle(6);

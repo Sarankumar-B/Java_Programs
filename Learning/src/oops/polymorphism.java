@@ -1,13 +1,6 @@
 package oops;
 
-class triangel{
-	public double area_circle (int r)
-	{
-		return (3.14*r*2);
-	}	
-}
-
-class calculation extends triangel{
+class calculation extends triangle{
 	//overriding
 	public double area_circle(int r) {
 		return (3.16*r*2);

@@ -12,7 +12,7 @@ public class conditional_statemts {
             System.out.println("You are a minor.");
         }
 
-        // Nested if-else
+        
         int number = 78;
         System.out.println("You enter the number: "+number);
         if (number > 0) {
@@ -23,7 +23,7 @@ public class conditional_statemts {
             System.out.println("The number is zero.");
         }
 
-        // Switch statement
+        
         int day = 6;
         System.out.println("Your entered day number: "+day);
         System.out.print("Day:");

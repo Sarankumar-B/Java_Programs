@@ -13,7 +13,7 @@ public class methods {
     }
 
     // Method to check if a number is even
-    public static boolean isEven(int num) {
+    public static boolean isEven(int num) { 
         return num % 2 == 0;
     }
 
@@ -21,8 +21,7 @@ public class methods {
         int num1 = 10;
         int num2 = 5;
  
-        int sum = add(num1, num2);
-        System.out.println("Sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("Sum of " + num1 + " and " + num2 + " is: " + add(num1, num2));
 
         System.out.println("Product of " + num1 + " and " + num2 + " is: " + multiply(num1, num2));
 
