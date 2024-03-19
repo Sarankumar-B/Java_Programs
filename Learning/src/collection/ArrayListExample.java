@@ -9,15 +9,8 @@ import java.util.ListIterator;
 
 public class ArrayListExample {
 
-//	ArrayListExample()
-//	{
-//		
-//		System.out.println("Non parameterized");
-//	}
-//	
 	ArrayListExample(int x)
-	{
-		
+	{	
 		System.out.println("parameterized");
 	}
 	
@@ -28,14 +21,11 @@ public class ArrayListExample {
 		CarCompany.add("BMW");
 		CarCompany.add(1,"Suzuhi");
 //		ArrayListExample x1=new ArrayListExample();		
-	System.out.println(CarCompany.get(1));
-	 System.out.println(CarCompany.contains("BMW"));
-//	 for (Object object : CarCompany) {
-//		System.out.println(object);
-//	}
-	 ListIterator iterator =CarCompany.listIterator();
-	while (iterator.hasNext()) {
-	System.out.println(iterator.previous());
+		System.out.println(CarCompany.get(1));
+		System.out.println(CarCompany.contains("BMW"));
+		ListIterator iterator =CarCompany.listIterator();
+		while (iterator.hasNext()) {
+		System.out.println(iterator.previous());
 	
 	}
 	
